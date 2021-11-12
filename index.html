@@ -5,19 +5,19 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="./style.css">
-    <title>Fahrenheit to Celcius</title>
+    <title>Fahrenheit && Celcius Calculator</title>
 </head>
 <body>
     <div class="container">
-        <input type="number" id="input" placeholder="Farengeyt daraja kiriting:">
-        <button id="submit">Submit</button>
-        <div class="div" style="display:flex;">
-            <span style="font-family: 'Courier New', Courier, monospace;font-weight: 700;">
-                selsiy darajada  &nbsp;
-            </span>
-            <p id="info"></p>
-            <span> °C</span>
-        </div>
+        <h2 class="title">Fahrenheit & Celcius</h2>
+        <h2 class="title">Calculator</h2>
+        <select id="scale">
+            <option value="F">Fahrenheit</option>
+            <option value="C">Celcius</option>
+        </select>
+        <input type="number" id="input" placeholder="Daraja kiriting:" aria-required="true">
+        <button type="submit" id="submit">Submit</button>
+        <p id="info"></p>
     </div>
     
     <script src="./script.js"></script>
